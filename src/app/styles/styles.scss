@@ -1,0 +1,60 @@
+/*main config*/
+body{
+    background-color: #f8f5f0;
+}
+h1,h2,h5{
+    color: #69824d;
+}
+.text{
+    font-size: 2vw;
+}
+.container{
+    background-color: #FCF8E8;
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    position:relative;
+
+}
+/*container scroll home*/
+.containers{
+    width: 75vw;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1px solid rgb(84, 84, 84, 0.2);
+    overflow: scroll;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.divh{
+    width: 300px;
+    height: 700px;
+    margin-top: 20px;
+    scroll-margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    color:#000;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y-mandatory{
+    scroll-snap-type: y mandatory;
+}
+.y-scroll .divh{
+    margin-bottom: 15px;
+}
+.x-scroll .wrapper{
+    width: 1240px;
+}
